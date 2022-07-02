@@ -1,0 +1,17 @@
+.menu {
+    padding-top: 30px;
+
+    p {
+        margin-left: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all ease 0.5s;
+        &:hover {
+            color: #ccc;
+        }
+    }
+    h2 {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+}

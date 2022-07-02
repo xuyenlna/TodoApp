@@ -1,0 +1,57 @@
+/* Modal Info */
+
+.modal-addNewTask {
+    max-width: 800px !important;
+    .modal-content {
+        padding: 20px;
+        .modal-header {
+            padding: 1rem 2rem;
+            border-bottom: none;
+            .task-title {
+                font-size: 22px;
+                font-weight: bold;
+            }
+
+            .task-click .close {
+                padding-bottom: 16px !important;
+            }
+        }
+
+        .modal-body {
+            .title,
+            .desc,
+            .deadline,
+            .priority {
+                margin-bottom: 15px;
+            }
+
+            label {
+                font-size: 16px;
+                font-weight: 600;
+            }
+            .priority select {
+                width: 100%;
+                padding: 5px;
+            }
+
+            .submitBtn {
+                display: flex;
+                justify-content: right;
+                button {
+                    border: solid 1px #ccc;
+                    border-radius: 2px;
+                    font-size: 18px;
+                    padding: 5px 20px;
+                    align-items: center;
+                    text-align: center;
+                    &:hover {
+                        background-color: rgb(92, 112, 133);
+                    }
+                }
+            }
+        }
+    }
+}
+.ant-picker-dropdown {
+    z-index: 9999999999999999999999;
+}
